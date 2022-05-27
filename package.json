@@ -2,7 +2,6 @@
   "name": "kareta",
   "version": "1.0.0",
   "description": "chat for everyone",
-  "main": "index.js",
   "scripts": {
     "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
     "start": "parcel src/pages/index.hbs --no-cache && parcel watch ./*"
