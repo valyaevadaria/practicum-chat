@@ -1,0 +1,24 @@
+.logo {
+  margin: 0;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+}
+
+.logo {
+  &__white {
+    padding: 16px;
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  &__colored {
+    padding: 0;
+    font-size: 36px;
+    line-height: 36px;
+    background-color: #ffffff;
+    background-image: linear-gradient(320deg,#EEBEFF,#D0B4FF,#A4DEFF,#B6E5FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

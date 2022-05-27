@@ -1,0 +1,11 @@
+<div class="chat-list__sidebar">
+  <div class="chat-list__sidebar-header">
+    {{> logo class="logo logo__colored"}}
+    {{> settingsButton }}
+  </div>
+  {{> searchingPanel}}
+  {{> chatItem name="User Name" lastContactDate="10:23" message="Some message text some message text" unreadCount=3}}
+  {{> chatItem name="User1 Name2" lastContactDate="18:45" message="Some message text some message text" unreadCount=1}}
+  {{!-- TO DO: DELETE --}}
+  {{> navlink rout="./index.hbs" class="navlink navlink__dark" routName="Назад"}}
+</div>
