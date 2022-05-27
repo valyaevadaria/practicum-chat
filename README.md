@@ -1,16 +1,20 @@
 # Чат Kareta
 
-Почему "Kareta"? Потому что "Телега"! 
+Почему "Kareta"? Потому что "Телега"! :smile:
 
 Проект 1 Модуля курса "Мидл фронтенд-разработчик"
 
-# Figma
+## Figma
 
-Макет: https://www.figma.com/file/keEfkF0D9gqnVQYEJ63u6M/Untitled?node-id=0%3A1
+[Макет](https://www.figma.com/file/keEfkF0D9gqnVQYEJ63u6M/Untitled?node-id=0%3A1 "Figma")
 
-# Netlify
+## Netlify
 
-# Run
+[kareta](https://adorable-scone-d209e2.netlify.app/)
+
+:warning: **Пока в проекте нет роутинга и логики, вынесла странички на страницу авторизации.**
+
+## Run
 
 Что бы запустить проект локально:
 
