@@ -1,0 +1,27 @@
+---
+title: Авторизация
+css:
+  - common.css
+  - auth.css
+  - logo.css
+  - form.css
+  - input.css
+  - button.css
+  - navlink.css
+---
+{{!< base}}
+
+<main>
+  <div class="auth-block">
+    <div class="auth-block__wrapper">
+      {{> logo class="logo logo__white"}}
+      {{> authorizationForm}}
+    </div>
+    {{!-- TO DO: DELETE --}}
+    <div class="form__item">
+      {{> navlink rout="./404.hbs" class="navlink navlink__white" routName="404"}}
+      {{> navlink rout="./500.hbs" class="navlink navlink__white" routName="500"}}
+      {{> navlink rout="./chat.hbs" class="navlink navlink__white" routName="Чат"}}
+    </div>
+  </div>
+</main>

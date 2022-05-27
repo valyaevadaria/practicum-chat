@@ -1,0 +1,13 @@
+
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 28px;
+  padding: 20px 42px;
+}
+
+.form {
+  &__item {
+    text-align: center;
+  }
+}

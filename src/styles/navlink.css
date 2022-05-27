@@ -1,0 +1,25 @@
+.navlink {
+  width: max-content;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navlink {
+  &__white {
+    color: white;
+  }
+
+  &__white:hover {
+    color: #ac7ffb;
+  }
+
+  &__dark {
+    padding: 16px;
+    color: #ba91ff;
+  }
+
+  &__dark:hover {
+    color: #ac7ffb;
+  }
+}

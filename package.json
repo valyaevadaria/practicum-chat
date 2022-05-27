@@ -1,0 +1,24 @@
+{
+  "name": "kareta",
+  "version": "1.0.0",
+  "description": "chat for everyone",
+  "scripts": {
+    "build": "parcel build src/pages/index.hbs --no-cache --public-url ./",
+    "start": "parcel src/pages/index.hbs --no-cache && parcel watch ./*"
+  },
+  "engines": {
+    "node": ">= 12.22.6"
+  },
+  "author": {
+    "name": "Valyaevad Daria",
+    "email": "dari.valyaeva@yandex.ru"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.3.2",
+    "postcss": "^8.2.1",
+    "postcss-brand-colors": "^3.0.0",
+    "postcss-nested": "^5.0.6"
+  }
+}

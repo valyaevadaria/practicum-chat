@@ -1,0 +1,29 @@
+.searching-panel {
+  padding: 12px 24px;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.searching-panel {
+  &__input {
+    width: 100%;
+    padding: 8px 36px 8px 12px;
+    line-height: 16px;
+    border: 0;
+    border-radius: 120px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #DDDDDD;
+  }
+
+  &__icon {
+    top: 5px;
+    right: 36px;
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+    float: right;
+    font-size: 20px;
+    color: #6F6F6F;
+  }
+}
